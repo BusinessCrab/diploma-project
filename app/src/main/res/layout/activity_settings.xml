@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <!-- Контент экрана настроек -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/themeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Переключить тему"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выйти из аккаунта"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/deleteUserButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Удалить пользователя"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+
+    <!-- Навигационная панель -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorPrimary"
+        app:itemIconTint="?attr/colorSecondary"
+        app:itemTextColor="?attr/colorOnSecondary"
+        app:menu="@menu/bottom_nav_menu" />
+</LinearLayout>
