@@ -37,3 +37,5 @@ An Android application to manage personal expenses, set spending limits for spec
 ## How to Run
 - Clone the repository
 git clone https://github.com/BusinessCrab/diploma-project.git
+- Open the project in Android Studio
+- Build and run on an emulator or a real device
