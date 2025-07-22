@@ -7,25 +7,25 @@ An Android application to manage personal expenses, set spending limits for spec
 - Login and registration on a single screen
 - User data stored locally in SQLite
 
-## Home Screen
+### Home Screen
 - Displays all user transactions
 - Shows total expenses
 - Spending limit with notification when exceeded
 - Ability to set a limit for a specific period
 - Add, edit, and delete transactions
 
-## History Screen
+### History Screen
 - View transactions for a selected date range
 - Filter transactions by period
 - Import/Export transactions in JSON format
 - Generate PDF reports for the selected period
 
-## Settings
+### Settings
 - Toggle between light and dark themes
 - Logout from the account
 - Delete the user and all related transactions
 
-# Tech Stack
+## Tech Stack
 - Kotlin – main programming language
 - SQLite – local database for users and transactions
 - RecyclerView – transaction list display
@@ -34,6 +34,6 @@ An Android application to manage personal expenses, set spending limits for spec
 - ActivityResultContracts – file import/export
 - SharedPreferences + SQLite – combinedtorage for user preferences
 
-# How to Run
+## How to Run
 - Clone the repository
 git clone https://github.com/BusinessCrab/diploma-project.git
